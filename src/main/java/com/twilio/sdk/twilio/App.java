@@ -17,7 +17,7 @@ public class App
     {
     	Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
-        Message message = Message.creator(new PhoneNumber("+16692529734"),
+        Message message = Message.creator(new PhoneNumber("**********"),
             new PhoneNumber("+12566661432"), 
             "Hi, This is a test run for twilio -Nishita").create();
 
